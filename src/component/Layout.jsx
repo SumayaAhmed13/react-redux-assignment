@@ -4,34 +4,43 @@ import { NavLink } from 'react-router-dom'
  const Layout = (props) => {
   return (
   <div>
-   <header className="shadow-sm shadow-slate-400 bg-green-200">
-        <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-          <a href="#">
-          <img src="https://cdn.ostad.app/public/upload/2023-10-17T07-14-50.690Z-Logo-new.png" alt="Logo" className="cursor-pointer"/>
-          </a>
-        <div>
-          <ul className="flex space-x-10 justify-center font-semibold ">
-       <li>
-        <NavLink to="/" style={({ isActive }) =>isActive? {color: '#008000',}:{ color: '#545e6f'}}>Home</NavLink>
-      </li>
-      <li>
-        <NavLink to="/projectpage" style={({ isActive }) =>isActive? {color: '#000'}:{ color: '#545e6f'}}>Project</NavLink>
-      </li>
-      <li>
-        <NavLink to="/servicepage" style={({ isActive }) =>isActive? {color: '#000'}:{color: '#545e6f'}}>Service</NavLink>
-      </li>
-      <li>
-        <NavLink to="/team" style={({ isActive }) =>isActive? {color: '#000'}:{ color: '#545e6f' }}>Team</NavLink>
-      </li>
-      <li>
-        <NavLink to="/testimonial" style={({ isActive }) =>isActive? {color: '#000'}:{ color: '#545e6f' }}>Testimonial</NavLink>
-      </li>
-          </ul>
+   <div className="w-full h-20 px-[100px] py-[5px] justify-between items-center inline-flex bg-green-300">
+    <div className="p-2.5 justify-start items-start gap-2.5 flex">
+        <div><span className="text-black text-xl font-bold font-poppins">Design</span><span className="text-orange-600 text-xl font-bold font-poppins">AGENCY</span></div>
+    </div>
+    <div className="justify-center items-center gap-[30px] flex">
+        <div className="p-2.5 justify-center items-center gap-2.5 flex">
+            <div className="text-black text-base font-medium font-poppins">
+            <NavLink to="/" style={({ isActive }) =>isActive? {color: '#008000',}:{ color: '#545e6f'}}>Home</NavLink>
+            </div>
         </div>
-        
+        <div className="p-2.5 justify-center items-center gap-2.5 flex">
+            <div className="text-black text-base font-medium font-poppins">
+            <NavLink to="/projectpage" style={({ isActive }) =>isActive? {color: '#008000'}:{ color: '#545e6f'}}>Project</NavLink></div>
         </div>
-        
-      </header>
+        <div className="p-2.5 justify-center items-center gap-2.5 flex">
+            <div className="text-black text-base font-medium font-poppins">
+            <NavLink to="/servicepage" style={({ isActive }) =>isActive? {color: '#008000'}:{color: '#545e6f'}}>Service</NavLink>
+            </div>
+        </div>
+        <div className="p-2.5 justify-center items-center gap-2.5 flex">
+            <div className="text-black text-base font-medium font-poppins">
+            <NavLink to="/team" style={({ isActive }) =>isActive? {color: '#008000'}:{ color: '#545e6f' }}>Team</NavLink></div>
+        </div>
+        <div className="p-2.5 justify-center items-center gap-2.5 flex">
+          <div className="text-black text-base font-medium font-poppins">
+          <NavLink to="/testimonial" style={({ isActive }) =>isActive? {color: '#008000'}:{ color: '#545e6f' }}>Testimonial</NavLink>
+
+          </div>
+        </div>
+        <div className="h-11 p-2.5 rounded-[10px] border border-green-500 justify-center items-center gap-2.5 flex">
+            <div className="text-black text-base font-medium font-poppins">Login</div>
+        </div>
+        <div className="h-11 p-2.5 bg-green-500 rounded-[10px] justify-center items-center gap-2.5 flex">
+            <div className="text-white text-base font-medium font-poppins">Register</div>
+        </div>
+    </div>
+</div>
     {props.children}
    </div>
   

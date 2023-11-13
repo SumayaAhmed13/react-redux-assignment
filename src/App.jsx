@@ -4,6 +4,8 @@ import ProjectPage from "./pages/ProjectPage";
 import ServicePage from "./pages/ServicePage";
 import Team from "./pages/Team";
 import Testimonial from './pages/Testimonial';
+import Footer from "./component/Footer";
+import Subscribe from "./component/Subscribe";
 
 function App() {
   
@@ -19,6 +21,8 @@ function App() {
          <Route path="/testimonial" element={<Testimonial/>}/>
     
       </Routes>
+      <Subscribe/>
+      <Footer/>
      </Router>
     </>
   )

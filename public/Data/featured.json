@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "App Design - June 20,2023",
+        "description":"Redesign Channel Website Landing Page",
+        "img": "public/Featured/img1.JPG"
+         
+    },
+    {
+        "id": 2,
+        "title": "App Design - June 20,2023",
+        "description":"Redesign Channel Website Landing Page",
+        "img": "public/Featured/img2.JPG"
+           
+    },
+       
+    {
+        "id": 3,
+        "title": "App Design - June 20,2023",
+        "description":"Redesign Channel Website Landing Page",
+        "img": "public/Featured/img3.JPG"
+           
+    },
+    {
+        "id": 4,
+        "title": "App Design - June 20,2023",
+        "description":"Redesign Channel Website Landing Page",
+        "img": "public/Featured/img4.JPG"
+           
+    }
+]

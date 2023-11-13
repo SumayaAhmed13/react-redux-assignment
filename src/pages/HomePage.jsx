@@ -1,11 +1,19 @@
 import React from 'react';
 import Layout from '../component/Layout';
+import HeroList from '../component/HeroList';
+import WorkList from '../component/WorkList';
+import StatList from '../component/StatList';
+import Featured from '../component/Featured';
+
 
  const HomePage = () => {
   return (
    <Layout>
-     <h2>This is Home Page</h2>
-
+       <HeroList/>
+       <WorkList/>
+       <StatList/>
+       <Featured/>
+    
    </Layout>
   )
 }

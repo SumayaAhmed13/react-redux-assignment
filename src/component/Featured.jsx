@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '/public/Data/featured.json';
+import data from '/public/Database/featured.json';
  const Featured = () => {
   return (
     <div className="w-full h-[572px] relative bg-green-50">

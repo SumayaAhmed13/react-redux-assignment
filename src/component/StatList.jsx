@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '/public/Data/counter.json';
+import data from '/public/Database/counter.json';
  const StatList = () => {
   return (
     <div className='w-full pb-16 bg-white mb-20 h-40 px-[105px]'>

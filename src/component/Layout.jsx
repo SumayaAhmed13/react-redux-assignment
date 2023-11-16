@@ -11,25 +11,25 @@ import { NavLink } from 'react-router-dom'
     <div className="justify-center items-center gap-[30px] flex">
         <div className="p-2.5 justify-center items-center gap-2.5 flex">
             <div className="text-black text-base font-medium font-poppins">
-            <NavLink to="/" style={({ isActive }) =>isActive? {color: '#008000',}:{ color: '#545e6f'}}>Home</NavLink>
+            <NavLink to="/" style={({ isActive }) =>isActive? {color: '#ff0000',}:{ color: '#545e6f'}}>Home</NavLink>
             </div>
         </div>
         <div className="p-2.5 justify-center items-center gap-2.5 flex">
             <div className="text-black text-base font-medium font-poppins">
-            <NavLink to="/projectpage" style={({ isActive }) =>isActive? {color: '#008000'}:{ color: '#545e6f'}}>Project</NavLink></div>
+            <NavLink to="/projectpage" style={({ isActive }) =>isActive? {color: '#ff0000'}:{ color: '#545e6f'}}>Project</NavLink></div>
         </div>
         <div className="p-2.5 justify-center items-center gap-2.5 flex">
             <div className="text-black text-base font-medium font-poppins">
-            <NavLink to="/servicepage" style={({ isActive }) =>isActive? {color: '#008000'}:{color: '#545e6f'}}>Service</NavLink>
+            <NavLink to="/servicepage" style={({ isActive }) =>isActive? {color: '#ff0000'}:{color: '#545e6f'}}>Service</NavLink>
             </div>
         </div>
         <div className="p-2.5 justify-center items-center gap-2.5 flex">
             <div className="text-black text-base font-medium font-poppins">
-            <NavLink to="/team" style={({ isActive }) =>isActive? {color: '#008000'}:{ color: '#545e6f' }}>Team</NavLink></div>
+            <NavLink to="/team" style={({ isActive }) =>isActive? {color: '#ff0000'}:{ color: '#545e6f' }}>Team</NavLink></div>
         </div>
         <div className="p-2.5 justify-center items-center gap-2.5 flex">
           <div className="text-black text-base font-medium font-poppins">
-          <NavLink to="/testimonial" style={({ isActive }) =>isActive? {color: '#008000'}:{ color: '#545e6f' }}>Testimonial</NavLink>
+          <NavLink to="/testimonial" style={({ isActive }) =>isActive? {color: '#ff0000'}:{ color: '#545e6f' }}>Testimonial</NavLink>
 
           </div>
         </div>

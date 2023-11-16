@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '/public/Data/work.json';
+import data from '/public/Database/work.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 const WorkList = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../component/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import data from '/public/Data/testimonial.json';
+import data from '/public/Database/testimonial.json';
 import { Link } from 'react-router-dom';
  const Testimonial = () => {
   return (

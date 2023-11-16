@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-import data from '/public/Data/service.json';
+import data from '/public/Database/service.json';
  const ServicePage = () => {
   return (
   <Layout>

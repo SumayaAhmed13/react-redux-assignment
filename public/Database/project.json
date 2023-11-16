@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Lorem ipsum dolor sit consectutar",
-        "img": "public/Project/img1.JPG"
+        "img": "/Project/img1.JPG"
          
     },
     {

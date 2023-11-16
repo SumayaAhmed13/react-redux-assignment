@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Devon Lane",
+        "img": "/Team/img1.JPG"
+         
+    },
+    {
+        "id": 2,
+        "name": "Danny Bailey",
+        "img": "/Team/img2.JPG"
+           
+    },
+       
+    {
+        "id": 3,
+        "name": "Alex Lov",
+        "img": "/Team/img3.JPG"
+           
+    }
+    
+]

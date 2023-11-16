@@ -3,14 +3,14 @@
         "id": 1,
         "title": "Followers",
         "amount": "240452",
-        "img": "public/Counter/img1.JPG"
+        "img": "/Counter/img1.JPG"
          
     },
     {
         "id": 2,
         "title": "Solved Problems",
         "amount": "6300",
-        "img": "public/Counter/img2.JPG"
+        "img": "/Counter/img2.JPG"
            
     },
        
@@ -18,14 +18,14 @@
         "id": 3,
         "title": "Happy Customers",
         "amount": "25000",
-        "img": "public/Counter/img3.JPG"
+        "img": "/Counter/img3.JPG"
            
     },
     {
         "id": 4,
         "title": "Projects",
         "amount": "360452",
-        "img": "public/Counter/img4.JPG"
+        "img": "/Counter/img4.JPG"
            
     }
 ]

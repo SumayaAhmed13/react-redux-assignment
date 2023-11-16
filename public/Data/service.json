@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "Build & Launch without Problems",
+        "description":"Increase Your Team's Productivity And Save Time With A Bot That Answers And Fields Customer Inquiries",
+        "img": "/Service/img1.JPG"
+         
+    },
+    {
+        "id": 2,
+        "title": "Build & Launch without Problems",
+        "description":"Increase Your Team's Productivity And Save Time With A Bot That Answers And Fields Customer Inquiries",
+        "img": "/Service/img2.JPG"
+           
+    },
+       
+    {
+        "id": 3,
+        "title": "Build & Launch without Problems",
+        "description":"Increase Your Team's Productivity And Save Time With A Bot That Answers And Fields Customer Inquiries",
+        "img": "/Service/img3.JPG"
+           
+    },
+    {
+        "id": 4,
+        "title": "Build & Launch without Problems",
+        "description":"Increase Your Team's Productivity And Save Time With A Bot That Answers And Fields Customer Inquiries",
+        "img": "/Service/img4.JPG"
+           
+    }
+]

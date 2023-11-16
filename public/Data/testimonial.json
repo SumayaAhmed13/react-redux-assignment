@@ -1,0 +1,50 @@
+[
+    {
+          "id": 1,
+          "name":"Alice Bradley",
+          "title": "Backend Developer",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+          "img": "/Testimonial/img1.JPG"
+         
+    },
+    {
+        "id": 2,
+        "name":"Alice Bradley",
+        "title": "Backend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "/Testimonial/img2.JPG"
+           
+    },
+    {
+        "id": 3,
+        "name":"Tracy Chou",
+        "title": "Frontend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "/Testimonial/img3.JPG"
+           
+    },
+    {
+        "id": 4,
+        "name":"Alice Bradley",
+        "title": "Backend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "/Testimonial/img4.JPG"
+           
+    },
+    {
+        "id": 5,
+        "name":"Jade Raymond",
+        "title": "Backend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "/Testimonial/img5.JPG"
+           
+    },
+    {
+        "id": 6,
+        "name":"Alice Bradley",
+        "title": "Backend Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et placerat metus. Morbi aliquet felis sit amet erat finibus, ac condimentum ligula ornare.",
+        "img": "/Testimonial/img6.JPG"
+           
+    }
+]

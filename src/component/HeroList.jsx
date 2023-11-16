@@ -6,11 +6,11 @@ import React from 'react'
     <div className="h-[120px] w-full px-[105px] left-0 top-[583px] absolute bg-stone-50 justify-start items-center inline-flex">
         <div className="w-[1300px] h-[30px]">
             <div className=' flex items-center space-x-36 justify-items-center'>
-            <img src="/public/Hero/Google.JPG" className='w-44 mb-80'/>
-            <img src="/public/Hero/Trello.JPG" className='w-44 mb-80' />
-            <img src="/public/Hero/monday.JPG" className='w-44 mb-80'/>
-            <img src="/public/Hero/Notion.JPG"className='w-44 mb-80' />
-            <img src="/public/Hero/slack.JPG" className='w-44 mb-80'/>
+            <img src="/Hero/Google.JPG" className='w-44 mb-80'/>
+            <img src="/Hero/Trello.JPG" className='w-44 mb-80' />
+            <img src="/Hero/monday.JPG" className='w-44 mb-80'/>
+            <img src="/Hero/Notion.JPG"className='w-44 mb-80' />
+            <img src="/Hero/slack.JPG" className='w-44 mb-80'/>
             </div>
           
         </div>
@@ -26,10 +26,10 @@ import React from 'react'
         </div>
     </div>
     <div className="w-full h-[457px] left-[733px] top-[65px] absolute">
-        <img className="w-[408px] h-[271px] left-0 top-0 absolute rounded-[10px]" src="/public/Hero/hero1.JPG" />
-        <img className="w-[246px] h-[164px] left-0 top-[293px] absolute rounded-[10px]" src="/public/Hero/hero3.JPG"/>
-        <img className="w-[345px] h-[164px] left-[261px] top-[293px] absolute rounded-[10px]" src="/public/Hero/hero4.JPG" />
-        <img className="w-[180px] h-[271px] left-[426px] top-0 absolute rounded-[10px]" src="/public/Hero/hero2.JPG" />
+        <img className="w-[408px] h-[271px] left-0 top-0 absolute rounded-[10px]" src="/Hero/hero1.JPG" />
+        <img className="w-[246px] h-[164px] left-0 top-[293px] absolute rounded-[10px]" src="/Hero/hero3.JPG"/>
+        <img className="w-[345px] h-[164px] left-[261px] top-[293px] absolute rounded-[10px]" src="/Hero/hero4.JPG" />
+        <img className="w-[180px] h-[271px] left-[426px] top-0 absolute rounded-[10px]" src="/Hero/hero2.JPG" />
     </div>
    </div>
   )

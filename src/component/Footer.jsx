@@ -10,14 +10,15 @@ import React from 'react'
     <div className="left-[106px] top-[256px] absolute flex-col justify-start items-start gap-[27.94px] inline-flex">
         <div className="justify-start items-start gap-[15.31px] inline-flex">
             <div className="w-[40.82px] h-[40.82px] relative">
-              <img src="/public/facebook.svg" alt="Logo" className="w-[40.82px] h-[40.82px] left-0 top-0 absolute bg-green-500 rounded-full text-white"/>
+              <img src="/SocialIcon/Group 32.svg" alt="Logo" className="w-[40.82px] h-[40.82px] left-0 top-0 absolute bg-green-500 rounded-full text-white"/>
             </div>
             <div className="w-[40.82px] h-[40.82px] relative">
-              <img src="/public/linkedin.svg" alt="Logo" className="w-[40.82px] h-[40.82px] left-0 top-0 absolute bg-green-500 rounded-full text-white"/>
+              <img src="/SocialIcon/Group 33.svg" alt="Logo" className="w-[40.82px] h-[40.82px] left-0 top-0 absolute bg-green-500 rounded-full text-white"/>
             </div>
             <div className="w-[40.82px] h-[40.82px] relative">
-              <img src="/public/square-twitter.svg" alt="Logo" className="w-[40.82px] h-[40.82px] left-0 top-0 absolute bg-green-500 rounded-full text-white"/>
+              <img src="/SocialIcon/Group 34.svg" alt="Logo" className="w-[40.82px] h-[40.82px] left-0 top-0 absolute bg-green-500 rounded-full text-white"/>
             </div>
+            
            
         </div>
     </div>

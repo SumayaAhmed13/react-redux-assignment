@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../component/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 import data from '/public/Data/service.json';
  const ServicePage = () => {
@@ -12,7 +13,7 @@ import data from '/public/Data/service.json';
        <div className="w-[347px] h-24 left-[100px] top-[80px] absolute">
             <div className="left-0 top-0 absolute text-gray-900 text-[40px] font-semibold  font-poppins leading-[51px]">Our Services</div>
             <div className="w-full h-[25px]  top-[71px] absolute  items-center gap-[10px] inline-flex">
-                <div className="text-gray-900 text-base font-semibold  font-poppins">Home</div>
+                <div className="text-gray-900 text-base font-semibold  font-poppins"><Link to="/">Home</Link></div>
                 <div className="text-gray-900 text-base font-black  font-poppins"><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></div>
                 <div className="text-green-500 text-base font-semibold  font-poppins">Our Services</div>
             </div>

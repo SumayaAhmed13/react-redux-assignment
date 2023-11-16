@@ -3,6 +3,7 @@ import Layout from '../component/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import data from '/public/Data/testimonial.json';
+import { Link } from 'react-router-dom';
  const Testimonial = () => {
   return (
   <Layout>
@@ -11,7 +12,7 @@ import data from '/public/Data/testimonial.json';
        <div className="w-[347px] h-24 left-[100px] top-[80px] absolute">
             <div className="left-0 top-0 absolute text-gray-900 text-[40px] font-poppins  inline-flex">Testimonial List</div>
             <div className="w-[230px] h-[25px] left-0 top-[71px] absolute justify-end items-center gap-[15px] inline-flex">
-                <div className="text-gray-900 text-base font-semibold font-poppins leading-[25px]">Home</div>
+                <div className="text-gray-900 text-base font-semibold font-poppins leading-[25px]"><Link to="/">Home</Link></div>
                 <div className="text-gray-900 text-base font-black font-poppins"><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></div>
                 <div className="text-green-500 text-base font-semibold font-poppins">Testimonial List</div>
             </div>
